@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <header class="bg-red-50">
+        <!-- NAVBAR SECTION -->
+        <div class="mx-24 header-container pb-14">
+            <nav class=" py-10">
+                <div class="header-container">
+                    <section class="flex items-center justify-between">
+                        <div class="logo-container">
+                            <img class="w-60" src="images/logo.png" alt="">
+                        </div>
+                        <div class="content-container">
+                            <ul class="inline-block">
+                                <li class="inline-block pl-4"><a href="#">Home</a></li>
+                                <li class="inline-block pl-4"><a href="#">Products</a></li>
+                                <li class="inline-block pl-4"><a href="#">About us</a></li>
+                                <li class="inline-block pl-4"><a href="#">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </section>
+            </nav>
+        </div>
+    </header>
+
+</body>
+
+</html>
